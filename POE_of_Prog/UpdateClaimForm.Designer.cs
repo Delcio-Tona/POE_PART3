@@ -42,16 +42,11 @@
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
-            panel1 = new Panel();
-            panel2 = new Panel();
-            panel3 = new Panel();
-            panel4 = new Panel();
-            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // Hourlyworked
             // 
-            Hourlyworked.Location = new Point(548, 105);
+            Hourlyworked.Location = new Point(392, 74);
             Hourlyworked.Name = "Hourlyworked";
             Hourlyworked.Size = new Size(181, 23);
             Hourlyworked.TabIndex = 8;
@@ -59,7 +54,7 @@
             // 
             // Course
             // 
-            Course.Location = new Point(548, 152);
+            Course.Location = new Point(392, 121);
             Course.Name = "Course";
             Course.Size = new Size(181, 23);
             Course.TabIndex = 9;
@@ -67,7 +62,7 @@
             // 
             // Nu_session
             // 
-            Nu_session.Location = new Point(548, 206);
+            Nu_session.Location = new Point(392, 175);
             Nu_session.Name = "Nu_session";
             Nu_session.Size = new Size(181, 23);
             Nu_session.TabIndex = 10;
@@ -75,7 +70,7 @@
             // 
             // Rate
             // 
-            Rate.Location = new Point(548, 257);
+            Rate.Location = new Point(392, 226);
             Rate.Name = "Rate";
             Rate.Size = new Size(181, 23);
             Rate.TabIndex = 11;
@@ -83,7 +78,7 @@
             // 
             // Claim_type
             // 
-            Claim_type.Location = new Point(548, 304);
+            Claim_type.Location = new Point(392, 273);
             Claim_type.Name = "Claim_type";
             Claim_type.Size = new Size(181, 23);
             Claim_type.TabIndex = 12;
@@ -91,7 +86,7 @@
             // 
             // Total_Claim
             // 
-            Total_Claim.Location = new Point(548, 356);
+            Total_Claim.Location = new Point(392, 325);
             Total_Claim.Name = "Total_Claim";
             Total_Claim.Size = new Size(181, 23);
             Total_Claim.TabIndex = 13;
@@ -99,124 +94,96 @@
             // 
             // SaveUpdate
             // 
-            SaveUpdate.Location = new Point(476, 453);
+            SaveUpdate.BackColor = SystemColors.ControlDark;
+            SaveUpdate.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SaveUpdate.Location = new Point(287, 411);
             SaveUpdate.Name = "SaveUpdate";
             SaveUpdate.Size = new Size(75, 29);
             SaveUpdate.TabIndex = 18;
             SaveUpdate.Text = "Save";
-            SaveUpdate.UseVisualStyleBackColor = true;
+            SaveUpdate.UseVisualStyleBackColor = false;
             SaveUpdate.Click += SaveUpdate_Click;
             // 
             // Back
             // 
-            Back.Location = new Point(622, 453);
+            Back.BackColor = SystemColors.ControlDark;
+            Back.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Back.Location = new Point(433, 411);
             Back.Name = "Back";
             Back.Size = new Size(75, 29);
             Back.TabIndex = 19;
             Back.Text = "Back";
-            Back.UseVisualStyleBackColor = true;
+            Back.UseVisualStyleBackColor = false;
             Back.Click += Back_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(347, 105);
+            label1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold);
+            label1.Location = new Point(130, 77);
             label1.Name = "label1";
-            label1.Size = new Size(157, 15);
+            label1.Size = new Size(183, 20);
             label1.TabIndex = 20;
-            label1.Text = "Your update hourlyWorked";
+            label1.Text = "Updated Hourly Worked:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(353, 155);
+            label2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold);
+            label2.Location = new Point(130, 127);
             label2.Name = "label2";
-            label2.Size = new Size(115, 15);
+            label2.Size = new Size(125, 20);
             label2.TabIndex = 21;
-            label2.Text = "Your update Course";
+            label2.Text = "Updated Course:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(347, 206);
+            label3.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold);
+            label3.Location = new Point(130, 178);
             label3.Name = "label3";
-            label3.Size = new Size(168, 15);
+            label3.Size = new Size(199, 20);
             label3.TabIndex = 22;
-            label3.Text = "Your update sessions number";
+            label3.Text = "Updated Sessions Number:";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(347, 257);
+            label4.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold);
+            label4.Location = new Point(130, 229);
             label4.Name = "label4";
-            label4.Size = new Size(138, 15);
+            label4.Size = new Size(160, 20);
             label4.TabIndex = 23;
-            label4.Text = "Your update hourlyRate";
+            label4.Text = "Updated Hourly Rate:";
             label4.Click += label4_Click;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(353, 304);
+            label5.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold);
+            label5.Location = new Point(131, 276);
             label5.Name = "label5";
-            label5.Size = new Size(132, 15);
+            label5.Size = new Size(153, 20);
             label5.TabIndex = 24;
-            label5.Text = "Your update claimType";
+            label5.Text = "Updated Claim Type:";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(353, 364);
+            label6.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold);
+            label6.Location = new Point(132, 327);
             label6.Name = "label6";
-            label6.Size = new Size(136, 15);
+            label6.Size = new Size(153, 20);
             label6.TabIndex = 25;
-            label6.Text = "Your update Total claim";
+            label6.Text = "Updated Total claim:";
             label6.Click += label6_Click;
-            // 
-            // panel1
-            // 
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(200, 100);
-            panel1.TabIndex = 26;
-            // 
-            // panel2
-            // 
-            panel2.Controls.Add(panel3);
-            panel2.Location = new Point(0, 0);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(200, 100);
-            panel2.TabIndex = 27;
-            // 
-            // panel3
-            // 
-            panel3.Location = new Point(0, 0);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(293, 541);
-            panel3.TabIndex = 0;
-            // 
-            // panel4
-            // 
-            panel4.BackColor = SystemColors.Highlight;
-            panel4.Location = new Point(0, 0);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(293, 524);
-            panel4.TabIndex = 28;
             // 
             // UpdateClaimForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Navy;
             ClientSize = new Size(800, 527);
-            Controls.Add(panel4);
-            Controls.Add(panel2);
-            Controls.Add(panel1);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -231,10 +198,10 @@
             Controls.Add(Nu_session);
             Controls.Add(Course);
             Controls.Add(Hourlyworked);
+            ForeColor = SystemColors.ControlLight;
             Name = "UpdateClaimForm";
             Text = "UpdateClaimForm";
             Load += UpdateClaimForm_Load;
-            panel2.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -255,9 +222,5 @@
         private Label label4;
         private Label label5;
         private Label label6;
-        private Panel panel1;
-        private Panel panel2;
-        private Panel panel3;
-        private Panel panel4;
     }
 }
