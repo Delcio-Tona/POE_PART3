@@ -233,7 +233,7 @@
             Upload.Name = "Upload";
             Upload.Size = new Size(148, 23);
             Upload.TabIndex = 20;
-            Upload.Text = "Suportive Document";
+            Upload.Text = "Supporting Documents";
             Upload.UseVisualStyleBackColor = false;
             Upload.Click += Upload_Click;
             // 
