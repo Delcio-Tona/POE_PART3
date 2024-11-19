@@ -44,23 +44,23 @@
             // 
             // Claim
             // 
-            Claim.BackColor = Color.DarkSeaGreen;
+            Claim.BackColor = SystemColors.ControlDark;
             Claim.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Claim.ForeColor = SystemColors.ButtonHighlight;
-            Claim.Location = new Point(16, 88);
+            Claim.Location = new Point(-1, 65);
             Claim.Name = "Claim";
             Claim.Size = new Size(127, 50);
             Claim.TabIndex = 0;
-            Claim.Text = "make Claim";
+            Claim.Text = "Make Claim";
             Claim.UseVisualStyleBackColor = false;
             Claim.Click += Claim_Click;
             // 
             // viewClaim
             // 
-            viewClaim.BackColor = Color.SandyBrown;
+            viewClaim.BackColor = SystemColors.ControlDark;
             viewClaim.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             viewClaim.ForeColor = SystemColors.ButtonHighlight;
-            viewClaim.Location = new Point(16, 157);
+            viewClaim.Location = new Point(-1, 147);
             viewClaim.Name = "viewClaim";
             viewClaim.Size = new Size(127, 51);
             viewClaim.TabIndex = 1;
@@ -70,15 +70,16 @@
             // 
             // panel2
             // 
-            panel2.BackColor = Color.Firebrick;
+            panel2.BackColor = Color.Navy;
             panel2.Controls.Add(label1);
             panel2.Controls.Add(Logout);
             panel2.Controls.Add(TrackingStatus);
             panel2.Controls.Add(Claim);
             panel2.Controls.Add(viewClaim);
-            panel2.Location = new Point(7, 34);
+            panel2.ForeColor = SystemColors.ControlLight;
+            panel2.Location = new Point(674, 42);
             panel2.Name = "panel2";
-            panel2.Size = new Size(157, 416);
+            panel2.Size = new Size(157, 396);
             panel2.TabIndex = 4;
             // 
             // label1
@@ -87,16 +88,15 @@
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(30, 30);
             label1.Name = "label1";
-            label1.Size = new Size(93, 21);
+            label1.Size = new Size(0, 21);
             label1.TabIndex = 4;
-            label1.Text = "DashBoard";
             // 
             // Logout
             // 
-            Logout.BackColor = Color.DarkOrange;
+            Logout.BackColor = SystemColors.ControlDark;
             Logout.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Logout.ForeColor = SystemColors.ButtonHighlight;
-            Logout.Location = new Point(16, 295);
+            Logout.Location = new Point(-1, 300);
             Logout.Name = "Logout";
             Logout.Size = new Size(124, 42);
             Logout.TabIndex = 3;
@@ -106,10 +106,10 @@
             // 
             // TrackingStatus
             // 
-            TrackingStatus.BackColor = Color.SeaGreen;
+            TrackingStatus.BackColor = SystemColors.ControlDark;
             TrackingStatus.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             TrackingStatus.ForeColor = SystemColors.ButtonHighlight;
-            TrackingStatus.Location = new Point(16, 233);
+            TrackingStatus.Location = new Point(-1, 228);
             TrackingStatus.Name = "TrackingStatus";
             TrackingStatus.Size = new Size(124, 45);
             TrackingStatus.TabIndex = 2;
@@ -119,7 +119,7 @@
             // 
             // panel3
             // 
-            panel3.BackColor = SystemColors.MenuHighlight;
+            panel3.BackColor = SystemColors.Menu;
             panel3.Controls.Add(label2);
             panel3.Location = new Point(7, 1);
             panel3.Name = "panel3";
@@ -140,7 +140,7 @@
             // 
             dataGridView1.BackgroundColor = SystemColors.ButtonHighlight;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(170, 64);
+            dataGridView1.Location = new Point(7, 64);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(651, 374);
             dataGridView1.TabIndex = 6;
@@ -152,8 +152,8 @@
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(833, 450);
             Controls.Add(dataGridView1);
-            Controls.Add(panel3);
             Controls.Add(panel2);
+            Controls.Add(panel3);
             Name = "Lecturer_DashBoard";
             Text = "Lecturer_DashBoard";
             Load += Lecturer_DashBoard_Load;
