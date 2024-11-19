@@ -56,38 +56,38 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(130, 47);
+            label1.Location = new Point(41, 209);
             label1.Name = "label1";
-            label1.Size = new Size(123, 21);
+            label1.Size = new Size(130, 21);
             label1.TabIndex = 0;
-            label1.Text = "Hourly worked";
+            label1.Text = "Hourly Worked:";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(130, 125);
+            label2.Location = new Point(38, 127);
             label2.Name = "label2";
-            label2.Size = new Size(149, 20);
+            label2.Size = new Size(153, 20);
             label2.TabIndex = 1;
-            label2.Text = "Number of Sessions";
+            label2.Text = "Number of Sessions:";
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(133, 173);
+            label3.Location = new Point(41, 175);
             label3.Name = "label3";
-            label3.Size = new Size(92, 20);
+            label3.Size = new Size(96, 20);
             label3.TabIndex = 2;
-            label3.Text = "Hourly Rate";
+            label3.Text = "Hourly Rate:";
             label3.Click += label3_Click;
             // 
             // Support
             // 
             Support.AutoSize = true;
             Support.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Support.Location = new Point(122, 306);
+            Support.Location = new Point(122, 323);
             Support.Name = "Support";
             Support.Size = new Size(0, 20);
             Support.TabIndex = 3;
@@ -96,25 +96,25 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(122, 276);
+            label5.Location = new Point(41, 286);
             label5.Name = "label5";
-            label5.Size = new Size(149, 20);
+            label5.Size = new Size(153, 20);
             label5.TabIndex = 4;
-            label5.Text = "Total Claim Amount";
+            label5.Text = "Total Claim Amount:";
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(133, 86);
+            label6.Location = new Point(38, 88);
             label6.Name = "label6";
-            label6.Size = new Size(57, 20);
+            label6.Size = new Size(61, 20);
             label6.TabIndex = 5;
-            label6.Text = "Course";
+            label6.Text = "Course:";
             // 
             // Hourlyworked
             // 
-            Hourlyworked.Location = new Point(281, 47);
+            Hourlyworked.Location = new Point(280, 207);
             Hourlyworked.Name = "Hourlyworked";
             Hourlyworked.Size = new Size(163, 23);
             Hourlyworked.TabIndex = 6;
@@ -142,15 +142,15 @@
             // 
             // Total_Claim
             // 
-            Total_Claim.Location = new Point(281, 275);
+            Total_Claim.Location = new Point(281, 283);
             Total_Claim.Name = "Total_Claim";
             Total_Claim.Size = new Size(163, 23);
             Total_Claim.TabIndex = 11;
             // 
             // Submit
             // 
-            Submit.BackColor = Color.DarkKhaki;
-            Submit.Location = new Point(210, 358);
+            Submit.BackColor = SystemColors.ControlDark;
+            Submit.Location = new Point(82, 375);
             Submit.Name = "Submit";
             Submit.Size = new Size(83, 42);
             Submit.TabIndex = 12;
@@ -160,8 +160,8 @@
             // 
             // Calculate
             // 
-            Calculate.BackColor = SystemColors.ButtonFace;
-            Calculate.Location = new Point(328, 358);
+            Calculate.BackColor = SystemColors.ControlDark;
+            Calculate.Location = new Point(206, 375);
             Calculate.Name = "Calculate";
             Calculate.Size = new Size(75, 42);
             Calculate.TabIndex = 13;
@@ -171,8 +171,8 @@
             // 
             // Reset
             // 
-            Reset.BackColor = Color.MistyRose;
-            Reset.Location = new Point(90, 358);
+            Reset.BackColor = SystemColors.ControlDark;
+            Reset.Location = new Point(327, 377);
             Reset.Name = "Reset";
             Reset.Size = new Size(75, 40);
             Reset.TabIndex = 14;
@@ -184,15 +184,15 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(133, 216);
+            label7.Location = new Point(37, 43);
             label7.Name = "label7";
-            label7.Size = new Size(87, 20);
+            label7.Size = new Size(91, 20);
             label7.TabIndex = 15;
-            label7.Text = "Lecturer ID";
+            label7.Text = "Lecturer ID:";
             // 
             // Lecturer_ID
             // 
-            Lecturer_ID.Location = new Point(281, 217);
+            Lecturer_ID.Location = new Point(281, 42);
             Lecturer_ID.Name = "Lecturer_ID";
             Lecturer_ID.Size = new Size(163, 23);
             Lecturer_ID.TabIndex = 16;
@@ -201,11 +201,11 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(133, 249);
+            label8.Location = new Point(41, 249);
             label8.Name = "label8";
-            label8.Size = new Size(85, 20);
+            label8.Size = new Size(89, 20);
             label8.TabIndex = 17;
-            label8.Text = "Claim Type";
+            label8.Text = "Claim Type:";
             // 
             // Claim_type
             // 
@@ -217,7 +217,7 @@
             // Back
             // 
             Back.BackColor = SystemColors.ControlDark;
-            Back.Location = new Point(431, 360);
+            Back.Location = new Point(430, 380);
             Back.Name = "Back";
             Back.Size = new Size(75, 40);
             Back.TabIndex = 19;
@@ -227,17 +227,19 @@
             // 
             // Upload
             // 
-            Upload.Location = new Point(122, 316);
+            Upload.BackColor = SystemColors.ControlDark;
+            Upload.ForeColor = SystemColors.ActiveCaptionText;
+            Upload.Location = new Point(121, 336);
             Upload.Name = "Upload";
             Upload.Size = new Size(148, 23);
             Upload.TabIndex = 20;
-            Upload.Text = "Suportive document";
-            Upload.UseVisualStyleBackColor = true;
+            Upload.Text = "Suportive Document";
+            Upload.UseVisualStyleBackColor = false;
             Upload.Click += Upload_Click;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(281, 316);
+            textBox1.Location = new Point(280, 336);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(163, 23);
             textBox1.TabIndex = 21;
@@ -248,15 +250,14 @@
             label4.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.Location = new Point(281, 9);
             label4.Name = "label4";
-            label4.Size = new Size(68, 30);
+            label4.Size = new Size(0, 30);
             label4.TabIndex = 22;
-            label4.Text = "Claim";
             // 
             // Submit_Claim
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.Window;
+            BackColor = Color.Navy;
             ClientSize = new Size(647, 450);
             Controls.Add(label4);
             Controls.Add(textBox1);
@@ -280,6 +281,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            ForeColor = SystemColors.ControlLight;
             Name = "Submit_Claim";
             Text = "Submit_Claim";
             Load += Submit_Claim_Load;

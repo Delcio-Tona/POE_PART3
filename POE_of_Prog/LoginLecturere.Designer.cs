@@ -44,9 +44,9 @@
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(111, 94);
             label1.Name = "label1";
-            label1.Size = new Size(109, 25);
+            label1.Size = new Size(106, 25);
             label1.TabIndex = 0;
-            label1.Text = "User Name";
+            label1.Text = "Username:";
             // 
             // label2
             // 
@@ -54,9 +54,9 @@
             label2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.Location = new Point(111, 153);
             label2.Name = "label2";
-            label2.Size = new Size(97, 25);
+            label2.Size = new Size(102, 25);
             label2.TabIndex = 1;
-            label2.Text = "Password";
+            label2.Text = "Password:";
             // 
             // Username
             // 
@@ -74,35 +74,38 @@
             // 
             // Submit
             // 
+            Submit.BackColor = SystemColors.ControlDark;
             Submit.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Submit.Location = new Point(252, 224);
             Submit.Name = "Submit";
             Submit.Size = new Size(75, 34);
             Submit.TabIndex = 4;
             Submit.Text = "Submit";
-            Submit.UseVisualStyleBackColor = true;
+            Submit.UseVisualStyleBackColor = false;
             Submit.Click += Submit_Click;
             // 
             // button2
             // 
+            button2.BackColor = SystemColors.ControlDark;
             button2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.Location = new Point(370, 224);
             button2.Name = "button2";
             button2.Size = new Size(75, 34);
             button2.TabIndex = 5;
             button2.Text = "Reset";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // button3
             // 
+            button3.BackColor = SystemColors.ControlDark;
             button3.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button3.Location = new Point(78, 336);
             button3.Name = "button3";
             button3.Size = new Size(75, 29);
             button3.TabIndex = 6;
             button3.Text = "Back";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // label3
