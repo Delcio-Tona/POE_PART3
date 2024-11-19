@@ -119,7 +119,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ActiveCaption;
+            BackColor = Color.Navy;
             ClientSize = new Size(610, 450);
             Controls.Add(label3);
             Controls.Add(button3);
@@ -129,6 +129,7 @@
             Controls.Add(Username);
             Controls.Add(label2);
             Controls.Add(label1);
+            ForeColor = SystemColors.ControlLight;
             Name = "LoginLecturere";
             Text = "LoginLecturer";
             Load += LoginLecturere_Load;
