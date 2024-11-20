@@ -38,6 +38,7 @@
             label1 = new Label();
             label7 = new Label();
             label4 = new Label();
+            label5 = new Label();
             SuspendLayout();
             // 
             // label2
@@ -54,7 +55,7 @@
             // 
             button1.BackColor = SystemColors.ControlDark;
             button1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(85, 201);
+            button1.Location = new Point(85, 235);
             button1.Name = "button1";
             button1.Size = new Size(100, 29);
             button1.TabIndex = 2;
@@ -75,7 +76,7 @@
             // 
             button2.BackColor = SystemColors.ControlDark;
             button2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(419, 201);
+            button2.Location = new Point(442, 229);
             button2.Name = "button2";
             button2.Size = new Size(100, 27);
             button2.TabIndex = 4;
@@ -98,7 +99,7 @@
             // 
             button3.BackColor = SystemColors.ControlDark;
             button3.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.Location = new Point(770, 200);
+            button3.Location = new Point(770, 230);
             button3.Name = "button3";
             button3.Size = new Size(86, 28);
             button3.TabIndex = 8;
@@ -110,7 +111,7 @@
             // 
             button4.BackColor = SystemColors.ControlDark;
             button4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.Location = new Point(84, 349);
+            button4.Location = new Point(86, 356);
             button4.Name = "button4";
             button4.Size = new Size(101, 27);
             button4.TabIndex = 9;
@@ -132,21 +133,31 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(332, 129);
+            label7.Location = new Point(381, 129);
             label7.Name = "label7";
-            label7.Size = new Size(337, 22);
+            label7.Size = new Size(204, 22);
             label7.TabIndex = 11;
-            label7.Text = "Login as Programme Coordinators/";
+            label7.Text = "Login as Programme";
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(332, 159);
+            label4.Location = new Point(382, 187);
             label4.Name = "label4";
-            label4.Size = new Size(188, 22);
+            label4.Size = new Size(244, 22);
             label4.TabIndex = 12;
-            label4.Text = "Academic Manager";
+            label4.Text = "Academic Manager or HR";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.Location = new Point(381, 159);
+            label5.Name = "label5";
+            label5.Size = new Size(138, 22);
+            label5.TabIndex = 13;
+            label5.Text = "Coordinators/";
             // 
             // Form1
             // 
@@ -154,6 +165,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Navy;
             ClientSize = new Size(968, 424);
+            Controls.Add(label5);
             Controls.Add(label1);
             Controls.Add(label4);
             Controls.Add(label6);
@@ -185,5 +197,6 @@
         private Label label1;
         private Label label7;
         private Label label4;
+        private Label label5;
     }
 }
