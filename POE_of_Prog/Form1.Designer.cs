@@ -99,7 +99,7 @@
             // 
             button3.BackColor = SystemColors.ControlDark;
             button3.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.Location = new Point(770, 230);
+            button3.Location = new Point(770, 225);
             button3.Name = "button3";
             button3.Size = new Size(86, 28);
             button3.TabIndex = 8;
